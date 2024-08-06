@@ -50,12 +50,12 @@ function App() {
         <input 
         type="range"
         min={8}
-        max={24}
+        max={16}
         value={length}
         className='cursor-pointer text-blue-500 accent-blue-500'
         onChange={(e) => {setlength(e.target.value)}}
         />
-        <label>Length: {length}</label>
+        <label>Length: ({length})</label>
       </div>
 
       <div className='flex items-center gap-x-1 mx-3 accent-blue-500'>
